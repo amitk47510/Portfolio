@@ -10,6 +10,10 @@ a {
     color: black;
 }
 
+nav {
+    width: 100%;
+}
+
 .navbar {
     width: 100%;
     background: linear-gradient(135deg, #87CEEB, #ADD8E6);
@@ -90,7 +94,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 2px;
+    padding-left: 0px;
     display: block;
     box-sizing: border-box;
 }
@@ -102,20 +106,20 @@ a {
     color: white;
     display: block;
     transition: 0.3s;
-  
+
 }
 
 .sidebar a:hover {
     color: blue;
-    
+
 }
 
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 0px;
     font-size: 36px;
-    margin-right: 50px;
+    margin-right: 0px;
     cursor: pointer;
 }
 
@@ -124,7 +128,7 @@ a {
     cursor: pointer;
     background: linear-gradient(135deg, #87CEEB, #ADD8E6);
     color: white;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border: none;
 }
 
@@ -134,12 +138,13 @@ a {
 }
 
 .me {
-    width: 100%;
+    width: 101.5vw;
     height: 400px;
     background-color: #F0F4F8;
     padding-top: 60px;
     display: flex;
 }
+
 
 .iam {
     margin: 90px 0 50px 200px;
@@ -160,10 +165,10 @@ i {
 #element {
     height: 40px;
     color: rgb(230, 75, 9);
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 20px;
     font-weight: 900;
-    width: 300px;
+    width: 350px;
 }
 
 .buttons {
@@ -248,7 +253,7 @@ i {
 }
 
 .skills {
-    width: 100%;
+    width: 101.5vw;
     height: auto;
     background: linear-gradient(135deg, #E5E8E8, #6C3483);
     display: flex;
@@ -258,7 +263,7 @@ i {
 }
 
 .skillstext {
-    width: 100%;
+    width: 101.5vw;
     text-align: center;
     background: linear-gradient(135deg, #E5E8E8, #6C3483);
     color: white;
@@ -266,7 +271,7 @@ i {
     font-size: 3rem;
     text-shadow: 5px 5px rgb(54, 50, 50);
     padding-bottom: 5px;
-    
+
 }
 
 #c,
@@ -375,8 +380,8 @@ i {
 }
 
 .education {
-    width: 100%;
-    height: 800px;
+    width: 101.5vw;
+    height: 900px;
     background: linear-gradient(135deg, #93A5CF, #E4EFE9);
 }
 
@@ -413,7 +418,7 @@ i {
 .govt,
 .school,
 .aces {
-    height: 150px;
+    height: 160px;
 }
 
 .gdsc {
@@ -460,7 +465,7 @@ i {
 }
 
 .position {
-    width: 100%;
+    width: 101.5vw;
     height: 600px;
     background: linear-gradient(135deg, #2B5876, #4E4376);
 }
@@ -480,7 +485,7 @@ i {
 }
 
 .certifications {
-    width: 100%;
+    width: 101.5vw;
     background: linear-gradient(135deg, #6A85B6, #BAC8E0);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -491,6 +496,7 @@ i {
 }
 
 .certificationstext {
+    width: 101.5vw;
     text-align: center;
     background: linear-gradient(135deg, #6A85B6, #BAC8E0);
     color: white;
@@ -504,27 +510,34 @@ i {
 
 .tc {
     width: 100%;
-    height: 250px;
+    height: 180px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.tc img{
+    border-radius: 5px;
+}
+#courses{
+    width: 101.5vw;
+    height: 1050px;
+    background: linear-gradient(135deg, #A8C0FF, #3F2B96);
+}
 
 
 
 .courses {
-    width: 100%;
-    background: linear-gradient(135deg, #A8C0FF, #3F2B96);
+    width: 101.5vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .coursestext {
+    width: 101.5vw;
     text-align: center;
-    background: linear-gradient(135deg, #A8C0FF, #3F2B96);
     color: white;
     height: 50px;
     padding-top: 10px;
@@ -538,7 +551,7 @@ i {
     border: 2px solid white;
     margin: 20px 0;
     background: linear-gradient(135deg, #A8C0FF, #3F2B96);
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -568,7 +581,7 @@ i {
 
 .projecttext {
     background-color: rgb(123, 107, 107);
-    width: 100%;
+    width: 101.5vw;
     font-size: 3rem;
     color: white;
     text-align: center;
@@ -578,7 +591,7 @@ i {
 }
 
 .projectsection {
-    width: 100%;
+    width: 101.5vw;
     height: 600px;
     background-color: rgb(123, 107, 107);
     display: flex;
@@ -702,7 +715,7 @@ i {
 }
 
 .contact {
-    width: 100%;
+    width: 101.5vw;
     height: 250px;
     background-color: rgb(6, 6, 31);
     display: flex;
@@ -742,7 +755,7 @@ li {
     text-align: center;
     font-style: italic;
     color: yellow;
-    width: 98.7%;
+    width: 100.2vw;
     height: 60px;
     background-color: rgb(6, 6, 31);
     font-weight: 900;
@@ -750,7 +763,7 @@ li {
 }
 
 #socials {
-    margin-top: 50px;
+    margin-top: 10px;
     color: yellow;
 }
 
@@ -791,8 +804,8 @@ a .links {
 .cdns div {
     text-decoration: none;
     font-size: xx-large;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
     width: 40px;
     color: white;
 }
@@ -802,10 +815,21 @@ a .links {
     color: orange;
     transform: scale(1.4);
 }
+ul{
+    text-align: center;
+}
+
 
 
 /* Responsive design for small screens */
 @media screen and (max-width: 484px) {
+    #element {
+        font-weight: 750;
+    }
+    
+    .navbar{
+        width: 100vw;
+    }
     .navbar a {
         display: none;
     }
@@ -822,13 +846,21 @@ a .links {
         padding-left: 0px;
         font-weight: small;
     }
+    .aboutmesection{
+        height:320px;
+    }
 
     .me {
         flex-direction: column;
         padding-top: 40px;
         align-items: center;
         margin-right: 60px;
-        height: 500px;
+        height: 550px;
+        width: 100vw;
+    }
+
+    .me,.skills,.skillstext,.edutext,.education,.position,.postext,.courses,.coursestext,.certifications,.certificationstext,.projecttext,.projectsection,.contact{
+        width: 100vw;
     }
 
     .iam {
@@ -861,6 +893,7 @@ a .links {
 
     #writeaboutme {
         font-size: 14px;
+        max-width: 400px;
     }
 
     .skillstext {
@@ -882,6 +915,7 @@ a .links {
         margin-left: 3%;
         border-radius: 0px 50px 0px 50px;
         font-size: 0.9rem;
+        height:200px
     }
 
     .cgpa {
@@ -894,10 +928,10 @@ a .links {
         padding: 0 10px;
     }
 
-    img {
+    /* img {
         width: 30px;
         height: auto;
-    }
+    } */
 
     .bharati,
     .govt,
@@ -906,6 +940,11 @@ a .links {
     .aces {
         box-shadow: 0 0 5px 5px rgb(101, 90, 90);
     }
+    #courses{
+        height: 3000px;
+        width: 100vw;
+        
+    }
 
     .coursestext {
         font-size: 1.5rem;
@@ -913,6 +952,9 @@ a .links {
 
     .course {
         width: 60%;
+    }
+    .courseimage img{
+        width:100%;
     }
 
     .go-to-course,
@@ -934,8 +976,7 @@ a .links {
 
     .tc img {
         width: 80%;
-        margin-left: 5%;
-        margin: 5% 5% 5% 0;
+        margin-left: 5%; 
     }
 
     .projecttext {
@@ -993,12 +1034,12 @@ a .links {
         width: 90%;
         height: auto;
         margin-top: -20px;
-        text-align: left;
-        padding-left: 100px;
+        text-align: center;
+        padding-left: 30px;
     }
 
     .footheading {
-        margin-right: 250px;
+        margin-right: 25px;
     }
 
     li {
@@ -1013,7 +1054,7 @@ a .links {
     }
 
     #socials {
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .cdns {
@@ -1033,6 +1074,7 @@ a .links {
     .heart {
         font-size: 18px;
     }
+
 
 }
 
