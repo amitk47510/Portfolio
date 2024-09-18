@@ -44,7 +44,7 @@
                 <a href="#contact">
                     <div class="navelements">Contact</div>
                 </a>
-                <button class="openbtn" onclick="openNav()" style="width: 30;">☰</button>
+                <button class="openbtn" onclick="openNav()" style="width: 0;">☰</button>
             </div>
             <div id="mySidebar" class="sidebar" style="width: 0;">
                 <span class="closebtn" onclick="closeNav()">×</span>
@@ -61,7 +61,7 @@
         </nav>
     </header>
 
-
+    <div class="container">
     <section id="home"></section>
     <div class="me">
         <div class="iam">
@@ -81,7 +81,6 @@
 
     <section id="about"></section>
     <div class="aboutmesection">
-        <div>&nbsp;</div>
         <div>&nbsp;</div>
         <h1 class="aboutme"><b class="fa-solid fa-user"></b>&nbsp;&nbsp;About Me</h1>
         <p class="ce">I am Amit (Computer Engineer)</p>
@@ -177,20 +176,24 @@
         <div class="certificationstext"><b class="fa-solid fa-pen-nib"></b>&nbsp;Certifications</div>
         <div class="certifications">
             <!-- Certifications content here -->
-            <div class="tc"><img src="images/tc1.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc2.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc3.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc4.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc5.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc6.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc7.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc8.jpg" alt="" width="250px" height="200px"></div>
-            <div class="tc"><img src="images/tc9.jpg" alt="" width="250px" height="200px"></div>
+            <div class="tc"><img src="images/tc1.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc2.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc3.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc4.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc5.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc6.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc7.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc8.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc9.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc10.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc11.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc12.jpg" alt="" width="200px" height="150px"></div>
+            <div class="tc"><img src="images/tc13.jpg" alt="" width="200px" height="150px"></div>
             <!-- Repeat for other certifications -->
         </div>
     </section>
 
-    <section id="courses"></section>
+    <section id="courses">
     <div>&nbsp;</div>
     <div>&nbsp;</div>
     <div>&nbsp;</div>
@@ -269,6 +272,9 @@
                     target="_blank">
                     <div><b class="fa-regular fa-envelope"></b></div>
                 </a>
+                <a href="https://github.com/amitk47510" target="_blank">
+                    <div><b class="fa-brands fa-github"></b></div>
+                </a>
                 <a href="https://www.instagram.com/i_amit_prajapati?igsh=cmdtdzQ3eGR3ZnU2" target="_blank">
                     <div><b class="fa-brands fa-instagram"></b></div>
                 </a>
@@ -323,6 +329,7 @@
     <div class="madeby"><span>&copy; All Rights Reserved | </span>Made with <b class="heart"> &#9829; </b> by Amit
     </div>
     </section>
+</div>
 
 </body>
 
@@ -339,7 +346,7 @@
 
 <script>
     var options = {
-        strings: ['Computer Engineer.', 'Web Developer..', 'Problem Solver..'],
+        strings: ['Computer Engineer', 'Web Developer..', 'Problem Solver..'],
         typeSpeed: 40,
         backSpeed: 20,
         backDelay: 1000,
@@ -403,6 +410,12 @@
             link: 'https://api.badgr.io/public/assertions/JfIy1Jq9SQK6sx7Ioc55mA?identity__email=amitk47510%40gmail.com',
             image: 'images/course6.jpg'
         },
+        {
+            title: 'Title: HTML CSS Bootcamp',
+            description: 'The HTML CSS Bootcamp offers me to gain a strong foundation in HTML and CSS, learning how to build responsive websites, style elements effectively, and implement best practices in web design. This experience has fueled my passion for web development and creative problem-solving.',
+            link: 'https://verify.letsupgrade.in/certificate/LUEHTMLSEP124967',
+            image: 'images/course7.jpg'
+        },
         
 
         // Add more courses here
@@ -444,7 +457,7 @@
             if (description.style.display === 'none' || !description.style.display) {
                 description.style.display = 'block';
                 e.target.innerHTML = 'Hide Description';
-                courseDiv.style.height = '500px';
+                courseDiv.style.height = '550px';
             } else {
                 description.style.display = 'none';
                 e.target.innerHTML = 'Show Description &#9660;';
